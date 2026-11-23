@@ -1,5 +1,7 @@
 # Risco de abandono no ensino médio — escolas estaduais do Nordeste
 
+[![Testes](https://github.com/Diogo-Nobrega7/risco-evasao-ept/actions/workflows/testes.yml/badge.svg)](https://github.com/Diogo-Nobrega7/risco-evasao-ept/actions/workflows/testes.yml)
+
 Dá para prever, com dados públicos, quais escolas vão ter o maior abandono no ensino médio no ano seguinte?
 E um modelo de machine learning faz isso melhor que uma regra simples?
 

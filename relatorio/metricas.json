@@ -1,0 +1,88 @@
+{
+  "alvo": "escola entre as 25% de maior abandono no EM do seu estado, no ano seguinte",
+  "treino": "2021 -> 2022",
+  "teste": "2022 -> 2023",
+  "n_treino": 4819,
+  "n_teste": 4849,
+  "resultados": {
+    "persistencia": {
+      "nordeste": {
+        "roc_auc": 0.754,
+        "pr_auc": 0.521,
+        "captura_top20": 0.449,
+        "taxa_base": 0.253,
+        "n": 4849
+      },
+      "rn": {
+        "roc_auc": 0.848,
+        "pr_auc": 0.682,
+        "captura_top20": 0.564,
+        "taxa_base": 0.253,
+        "n": 308
+      },
+      "escolas_com_tecnico": {
+        "roc_auc": 0.756,
+        "pr_auc": 0.482,
+        "captura_top20": 0.482,
+        "taxa_base": 0.199,
+        "n": 1115
+      }
+    },
+    "regressao_logistica": {
+      "nordeste": {
+        "roc_auc": 0.769,
+        "pr_auc": 0.521,
+        "captura_top20": 0.446,
+        "taxa_base": 0.253,
+        "n": 4849
+      },
+      "rn": {
+        "roc_auc": 0.86,
+        "pr_auc": 0.639,
+        "captura_top20": 0.538,
+        "taxa_base": 0.253,
+        "n": 308
+      },
+      "escolas_com_tecnico": {
+        "roc_auc": 0.788,
+        "pr_auc": 0.503,
+        "captura_top20": 0.482,
+        "taxa_base": 0.199,
+        "n": 1115
+      }
+    },
+    "gradient_boosting": {
+      "nordeste": {
+        "roc_auc": 0.772,
+        "pr_auc": 0.536,
+        "captura_top20": 0.45,
+        "taxa_base": 0.253,
+        "n": 4849
+      },
+      "rn": {
+        "roc_auc": 0.855,
+        "pr_auc": 0.641,
+        "captura_top20": 0.513,
+        "taxa_base": 0.253,
+        "n": 308
+      },
+      "escolas_com_tecnico": {
+        "roc_auc": 0.776,
+        "pr_auc": 0.485,
+        "captura_top20": 0.459,
+        "taxa_base": 0.199,
+        "n": 1115
+      }
+    }
+  },
+  "top_variaveis": [
+    "Abandono no EM (posição no estado)",
+    "Distorção idade-série (posição no estado)",
+    "Aprovação no EM (posição no estado)",
+    "Tamanho do EM",
+    "Docentes com formação adequada",
+    "% de alunos com 18 anos ou mais",
+    "% de alunos pretos e pardos",
+    "Reprovação no EM"
+  ]
+}
